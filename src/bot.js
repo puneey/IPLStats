@@ -248,6 +248,6 @@ client.on('message', (message) => {
             return;
         }
     }
-});
+};
 
 client.login(process.env.DISCORD_BOT_TOKEN);
